@@ -5,4 +5,10 @@ module.exports = {
     page: true,
     REACT_APP_ENV: true,
   },
+  rules: {
+    'no-console': 0,
+    'react/no-array-index-key': 0,
+    'no-param-reassign': 0,
+    'react-hooks/exhaustive-deps': 'off',
+  },
 };

@@ -18,7 +18,8 @@ export default [
       { component: './404' },
     ],
   },
-  { name: '查询表格', icon: 'table', path: '/list', component: './TableList' },
+  { name: '查询表格', icon: 'table', path: '/list', component: './table-list' },
+  { name: '测试页', icon: 'table', path: '/demo-page', component: './demo-page' },
   { path: '/', redirect: '/welcome' },
   { component: './404' },
 ];
